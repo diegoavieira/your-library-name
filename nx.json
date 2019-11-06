@@ -7,5 +7,18 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "documentation-e2e": {
+      "tags": []
+    },
+    "documentation": {
+      "tags": []
+    },
+    "documentation-ui-home": {
+      "tags": []
+    },
+    "core": {
+      "tags": []
+    }
+  }
 }

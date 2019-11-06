@@ -15,7 +15,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@your-library-name/documentation-ui/home": [
+        "libs/documentation-ui/home/src/index.ts"
+      ],
+      "@your-library-name/core": ["libs/core/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
