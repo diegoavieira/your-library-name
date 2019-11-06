@@ -25,11 +25,12 @@
     "update:check": "ng update",
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "build:doc": "./node_modules/.bin/compodoc -p libs/core/tsconfig.lib.json --theme Readthedocs -d dist/apps/documentation/compodoc",
+    "serve:doc": "./node_modules/.bin/compodoc -p libs/core/tsconfig.lib.json --theme Readthedocs -d dist/apps/documentation/compodoc -s"
   },
   "private": true,
   "dependencies": {
-    "@nrwl/angular": "^8.7.0",
     "@angular/animations": "^8.2.0",
     "@angular/common": "^8.2.0",
     "@angular/compiler": "^8.2.0",
@@ -38,6 +39,8 @@
     "@angular/platform-browser": "^8.2.0",
     "@angular/platform-browser-dynamic": "^8.2.0",
     "@angular/router": "^8.2.0",
+    "@compodoc/compodoc": "^1.1.11",
+    "@nrwl/angular": "^8.7.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
